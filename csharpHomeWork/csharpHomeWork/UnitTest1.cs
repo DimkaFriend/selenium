@@ -19,7 +19,15 @@ namespace csharpHomeWork
         [Test]
         public void TestMethod1()
         {
-            this.driver.Url = "https://www.youtube.com/";
+            // почему то всплавал alert для basic авторизации, эту  строчку наверное можно считать  костылем.
+            this.driver.Url = "http://admin:admin@localhost:81/lifecart/admin/";
+            
+            this.driver.FindElement(By.Name("username")).Clear();
+            this.driver.FindElement(By.Name("username")).SendKeys("admin");
+            this.driver.FindElement(By.Name("password")).Clear();
+            this.driver.FindElement(By.Name("password")).SendKeys("admin");
+            this.driver.FindElement(By.Name("login")).Click();
+          
         }
         [TearDown]
         public void close() 
