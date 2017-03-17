@@ -66,6 +66,7 @@
     <Compile Include="TestFireFox.cs" />
     <Compile Include="TestIE.cs" />
     <Compile Include="FF_RSE.cs" />
+    <Compile Include="FFNaghtly.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
