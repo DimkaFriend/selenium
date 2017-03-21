@@ -1,0 +1,4 @@
+m.emma.office.promit-ek.ru	FALSE	/	FALSE	ASP.NET_SessionId	54qdvdv3prm1gympcjyiyphz
+m.emma.office.promit-ek.ru	FALSE	/	FALSE	4102444800	ShowInfo	0
+m.emma.office.promit-ek.ru	FALSE	/	FALSE	4102444800	ShowLeftWorkplace	1
+m.emma.office.promit-ek.ru	FALSE	/	FALSE	4102444800	ShowRightWorkplace	0
