@@ -49,7 +49,7 @@ public class testgoogle {
                 .moveToElement(this.driver.findElements(By.cssSelector(".input-wrapper>table>tbody>tr>td>input")).get(2)).click();
         this.driver.findElements(By.cssSelector(".input-wrapper>table>tbody>tr>td>input")).get(2).click();
         this.driver.findElements(By.cssSelector("#tab-general>table>tbody>tr>td>table>tbody>tr>td>input")).get(0).sendKeys("1");
-        this.driver.findElements(By.cssSelector("#tab-general>table>tbody>tr>td>table>tbody>tr>td>input")).get(1).sendKeys("C:\\Users\\boltenkov\\Dropbox\\selenium\\untitled\\javaHomeWork\\src\\test\\java\\Modul_6\\HomeWork11\\HomeWork11\\HomeWork12\\i.jpg");
+        this.driver.findElements(By.cssSelector("#tab-general>table>tbody>tr>td>table>tbody>tr>td>input")).get(1).sendKeys(System.getProperty("user.dir")+"\\i.jpg");
         this.driver.findElements(By.cssSelector("#tab-general>table>tbody>tr>td>input")).get(1).sendKeys("02-04-2017");
         this.driver.findElements(By.cssSelector("#tab-general>table>tbody>tr>td>input")).get(2).sendKeys("02-04-2018");
         this.driver.findElements(By.cssSelector(".index>li>a")).get(1).click();
