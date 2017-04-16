@@ -7,9 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
+
 
 /**
  * Created by boltenkov on 06.04.2017.
@@ -21,7 +25,7 @@ public class test {
     {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("unexpectedAlertBehaviour","ignore");
-        this.driver= new ChromeDriver(caps);
+        this.driver= new FirefoxDriver(caps);
     }
 
     @Test
@@ -30,13 +34,15 @@ public class test {
         this.driver.get("http://localhost:81/lifecart/en/");
         for(int i = 0; i < 3; i ++)
         {
-            WebDriverWait wait = new WebDriverWait(this.driver,30);
-            WebElement item = this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]"));
+            WebDriverWait wait = new WebDriverWait(this.driver, 1);
+         //   WebElement item = this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]"));
             this.driver.findElement(By.cssSelector(".product.column.shadow.hover-light")).click();
-            this.driver.findElement(By.cssSelector(".quantity>button")).click();
+            wait.until(ExpectedConditions.visibilityOf(this.driver.findElement(By.cssSelector(".quantity>button")))).click();
 
-            wait.until(ExpectedConditions.not(ExpectedConditions.visibilityOf(item)));
-            System.out.println(this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]")).getText());
+            //this.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            wait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@id='cart']/a[2]"))));
+            //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='cart']/a[2]")));
+           // System.out.println(this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]")).getText());
             this.driver.navigate().back();
 
         }

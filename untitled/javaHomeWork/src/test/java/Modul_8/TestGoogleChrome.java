@@ -1,4 +1,4 @@
-package Modwl_8;
+package Modul_8;
 
 import org.junit.After;
 import org.junit.Before;
@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by boltenkov on 16.04.2017.
