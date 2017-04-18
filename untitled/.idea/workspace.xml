@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java" line="38" />
+    <bookmark url="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java" line="36" />
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ee329d76-480b-4668-8fb5-3f17b232d79e" name="Default" comment="" />
@@ -16,6 +16,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javaHomeWork$test_Cart.coverage" NAME="test.Cart Coverage Results" MODIFIED="1492526124117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Modul_7.HomeWork13.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/javaHomeWork$TestGoogleChrome_stepClickAllPointMenu.coverage" NAME="TestGoogleChrome.stepClickAllPointMenu Coverage Results" MODIFIED="1490909997501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Modul_5.HomeWork10.*</FILTER>
     </SUITE>
@@ -51,47 +54,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_17.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/test_17.java">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="159" column="50" lean-forward="false" selection-start-line="159" selection-start-column="50" selection-end-line="159" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#1233:3725" expanded="false" />
-                <element signature="method#beforeAlertAccept#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterAlertAccept#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterAlertDismiss#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeAlertDismiss#0;class#1233:3725" expanded="false" />
-                <element signature="e#1753#1754#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-                <element signature="method#afterNavigateTo#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeNavigateBack#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterNavigateBack#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeNavigateForward#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterNavigateForward#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeNavigateRefresh#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterNavigateRefresh#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterFindBy#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeClickOn#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterClickOn#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeChangeValueOf#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterChangeValueOf#0;class#1233:3725" expanded="false" />
-                <element signature="method#beforeScript#0;class#1233:3725" expanded="false" />
-                <element signature="method#afterScript#0;class#1233:3725" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeWork_17.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-632">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -432,12 +400,12 @@
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_5/HomeWork10/TestFireFox.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_6/HomeWork11/HomeWork11/HomeWork12/testgoogle.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modwl_8/TestGoogleChrome.java" />
-        <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_9/Grid.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_9/CludGrid.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/HomeWork_17.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/test_17.java" />
         <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java" />
+        <option value="$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java" />
       </list>
     </option>
   </component>
@@ -463,9 +431,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,63 +490,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modul_10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modul_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modul_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWork9" />
+              <option name="myItemId" value="HomeWork13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,7 +513,7 @@
       <recent name="C:\Users\boltenkov\Dropbox\selenium\untitled\javaHomeWork\src\test\java\Modul_4\HomeWork7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HomeWork_17.openPage">
+  <component name="RunManager" selected="JUnit.test.Cart">
     <configuration default="false" name="TestGoogleChrome.stepClickAllPointMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -959,10 +871,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HomeWork_17.openPage" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test_17.openPage" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CludGrid.openPage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.test.Cart" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.test.Cart" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HomeWork_17.openPage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.test_17.openPage" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CludGrid.openPage" />
       </list>
     </recent_temporary>
   </component>
@@ -984,35 +896,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 15h 49m 32s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 18h 52m 45s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 15h 50m 37s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 03m 35s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 16h 03m 59s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 05m 33s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 16h 05m 41s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 06m 05s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 16h 05m 46s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 06m 36s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 16h 07m 39s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 07m 34s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeWork_17_openPage - 2017.04.16 at 16h 14m 44s.xml">
-      <configuration name="HomeWork_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 09m 41s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_17_openPage - 2017.04.16 at 15h 37m 26s.xml">
-      <configuration name="test_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 10m 54s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_17_openPage - 2017.04.16 at 15h 44m 12s.xml">
-      <configuration name="test_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 11m 32s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_17_openPage - 2017.04.16 at 15h 44m 53s.xml">
-      <configuration name="test_17.openPage" configurationId="JUnit" />
+    <history-entry file="test_Cart - 2017.04.18 at 19h 11m 59s.xml">
+      <configuration name="test.Cart" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1025,39 +937,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37378114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31852654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31852654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2238806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25161812" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37378114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1085,22 +997,10 @@
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_8/TestGoogleChrome.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_9/CludGrid.java</url>
@@ -1109,28 +1009,10 @@
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java</url>
-          <line>67</line>
+          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="100" />
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/javaHomeWork/src/test/java/test_17.java</url>
@@ -1139,7 +1021,7 @@
           <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="101" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1274,13 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1299,7 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,17 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-109">
           <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="42" column="123" lean-forward="true" selection-start-line="42" selection-start-column="123" selection-end-line="42" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,9 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="23" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,7 +1210,7 @@
         <state relative-caret-position="456">
           <caret line="70" column="5" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="70" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1362,9 +1220,9 @@
         <state relative-caret-position="442">
           <caret line="38" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#850#851#0" expanded="false" />
+            <element signature="e#942#943#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1373,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="164" column="7" lean-forward="false" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1397,7 +1252,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="109" column="58" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="109" selection-end-column="58" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,8 +1286,6 @@
             <element signature="method#afterAlertAccept#0;class#1233:3725" expanded="false" />
             <element signature="method#afterAlertDismiss#0;class#1233:3725" expanded="false" />
             <element signature="method#beforeAlertDismiss#0;class#1233:3725" expanded="false" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
             <element signature="method#afterNavigateTo#0;class#1233:3725" expanded="false" />
             <element signature="method#beforeNavigateBack#0;class#1233:3725" expanded="false" />
             <element signature="method#afterNavigateBack#0;class#1233:3725" expanded="false" />
@@ -1432,31 +1304,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_10/HomeWork_17.java">
+    <entry file="file://$PROJECT_DIR$/javaHomeWork/src/test/java/Modul_7/HomeWork13/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-632">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

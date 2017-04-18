@@ -5,9 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -25,38 +23,40 @@ public class test {
     {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("unexpectedAlertBehaviour","ignore");
-        this.driver= new FirefoxDriver(caps);
+        this.driver= new ChromeDriver(caps);
     }
 
     @Test
     public void Cart()
     {
+
         this.driver.get("http://localhost:81/lifecart/en/");
         for(int i = 0; i < 3; i ++)
         {
-            WebDriverWait wait = new WebDriverWait(this.driver, 1);
-         //   WebElement item = this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]"));
+            WebDriverWait wait = new WebDriverWait(this.driver, 5);
             this.driver.findElement(By.cssSelector(".product.column.shadow.hover-light")).click();
             wait.until(ExpectedConditions.visibilityOf(this.driver.findElement(By.cssSelector(".quantity>button")))).click();
-
-            //this.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            wait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@id='cart']/a[2]"))));
-            //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='cart']/a[2]")));
-           // System.out.println(this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]")).getText());
-            this.driver.navigate().back();
-
+            wait.until(ExpectedConditions.textToBePresentInElementLocated(By.cssSelector(".quantity"),Integer.toString(1+i)));
+            this.driver.navigate().to("http://localhost:81/lifecart/en/");
         }
-        System.out.println(this.driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]")).getText());
+
         this.driver.findElement(By.xpath(".//*[@id='cart']/a[3]")).click();
-        //контрол таблицы .dataTable.rounded-corners>tbody
-        //контрол кнопки .item>form>div>p>button[value='Remove']
-        for(int i = 0; i < 3; i ++)
+        if(this.driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[1]/a")).isDisplayed())
         {
-        WebDriverWait wait = new WebDriverWait(this.driver,30);
-        wait.until(ExpectedConditions.stalenessOf(this.driver.findElement(By.cssSelector(".dataTable.rounded-corners"))));
-        this.driver.findElement(By.cssSelector(".item>form>div>p>button[value='Remove']")).click();
-
+            this.driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[1]/a")).click();
         }
+       int i = 0 ;
+        do{
+            this.driver.manage().timeouts().pageLoadTimeout(1,TimeUnit.SECONDS);
+            //int count = this.driver.findElements(By.cssSelector("")).size();
+            WebDriverWait wait = new WebDriverWait(this.driver,1,100);
+
+
+            wait.until(ExpectedConditions.visibilityOf(this.driver.findElement(By.cssSelector(".item>form>div>p>button[value='Remove']")))).click();
+           // wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(".//*[@id='order_confirmation-wrapper']/table/tbody")));
+            i++;
+        }while (i<3);
+
     }
 
     @After
