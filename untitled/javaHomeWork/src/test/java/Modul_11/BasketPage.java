@@ -2,11 +2,12 @@ package Modul_11;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 /**
  * Created by boltenkov on 19.04.2017.
@@ -34,7 +35,12 @@ public class BasketPage extends Page {
 
    public BasketPage visibleRemove()
    {
-       wait.until(ExpectedConditions.textToBePresentInElementLocated(By.cssSelector(".item>form>div>p>button[value='Remove']"),"Remove"));
+       try{
+           wait.until(ExpectedConditions.textToBePresentInElementLocated(By.cssSelector(".item>form>div>p>button[value='Remove']"),"Remove"));
+       }catch(TimeoutException e)
+       {
+
+       }
        return this;
    }
 

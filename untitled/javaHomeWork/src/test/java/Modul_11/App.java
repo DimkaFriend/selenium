@@ -3,6 +3,7 @@ package Modul_11;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 /**
  * Created by boltenkov on 19.04.2017.
@@ -16,7 +17,7 @@ public class App {
     private BasketPage basketPage;
 
     public App() {
-        driver = new ChromeDriver();
+        driver =  new EdgeDriver();
         mainPage = new MainPage(driver); //,"http://localhost:81/lifecart/en/"
         goodsPage = new GoodsPage(driver);
         basketPage = new BasketPage(driver);//,"http://localhost:81/lifecart/en/checkout"
@@ -42,6 +43,7 @@ public class App {
             }catch(NoSuchElementException e)
             {
                 System.out.println("Basket is empty");
+                driver.close();
             }
         }
    }
