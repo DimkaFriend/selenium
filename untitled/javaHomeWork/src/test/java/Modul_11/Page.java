@@ -16,5 +16,6 @@ public class Page {
         this.driver = driver;
         wait = new WebDriverWait(driver, 10);
         this.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        this.driver.manage().timeouts().pageLoadTimeout(5,TimeUnit.SECONDS);
     }
 }

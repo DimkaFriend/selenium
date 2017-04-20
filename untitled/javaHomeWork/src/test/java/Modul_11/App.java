@@ -17,16 +17,17 @@ public class App {
 
     public App() {
         driver = new ChromeDriver();
-        mainPage = new MainPage(driver,"http://localhost:81/lifecart/en/");
+        mainPage = new MainPage(driver); //,"http://localhost:81/lifecart/en/"
         goodsPage = new GoodsPage(driver);
-        basketPage = new BasketPage(driver,"http://localhost:81/lifecart/en/checkout");
+        basketPage = new BasketPage(driver);//,"http://localhost:81/lifecart/en/checkout"
     }
 
    public void workWithTheBasket()
    {
         for(int i = 0 ; i < 3 ; i++)
         {
-            mainPage.openPage().openCart();
+            mainPage.openPage();
+            mainPage.openCart();
             goodsPage.addCartToBasket().toBack();
         }
 

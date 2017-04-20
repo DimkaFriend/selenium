@@ -14,15 +14,14 @@ public class GoodsPage extends Page {
 
     public GoodsPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(this.driver, this);
+
 
     }
 
-    @FindBy(name = ".quantity>button")
-    private WebElement button;
+
     private WebElement waitVisibleElement()
     {
-        return wait.until(ExpectedConditions.visibilityOf(this.button));
+        return wait.until(ExpectedConditions.visibilityOf(this.driver.findElement(By.cssSelector(".quantity>button"))));
     }
 
     private Boolean countIsBasket()
@@ -35,7 +34,7 @@ public class GoodsPage extends Page {
     {
         if(waitVisibleElement()!=null)
         {
-            this.button.click();
+            this.driver.findElement(By.cssSelector(".quantity>button")).click();
         }
 
         if(countIsBasket())

@@ -13,11 +13,10 @@ import java.util.concurrent.TimeUnit;
  */
 public class BasketPage extends Page {
     private String pageURL;
-    public BasketPage(WebDriver driver,String pageURL) {
+    public BasketPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(this.driver, this);
         this.driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.SECONDS);
-        this.pageURL = pageURL;
     }
 
    public BasketPage open()

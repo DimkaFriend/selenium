@@ -22,22 +22,22 @@ public class MainTest {
 
     @Before
     public void start() {
-        if (tlApp.get() != null) {
-            app = tlApp.get();
-            return;
-        }
+
 
         app = new App();
-        tlApp.set(app);
 
-        Runtime.getRuntime().addShutdownHook(
-                new Thread(() -> { app.quit(); app = null; }));
     }
 
     @Test
     public void Cart()
     {
         app.workWithTheBasket();
+    }
+
+    @After
+    public void  quit()
+    {
+        app.quit();
     }
 
 }

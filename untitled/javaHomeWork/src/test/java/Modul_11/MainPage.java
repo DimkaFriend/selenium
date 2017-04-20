@@ -9,14 +9,14 @@ import org.openqa.selenium.support.FindBy;
  */
 public class MainPage extends Page {
     private String pageURL;
-    public MainPage(WebDriver driver,String pageURL) {
+    public MainPage(WebDriver driver) {
         super(driver);
-        this.pageURL=pageURL;
+
     }
 
     public MainPage openPage()
     {
-        this.driver.get(pageURL);
+        this.driver.get("http://localhost:81/lifecart/en/");
         return this;
     }
 
